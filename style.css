@@ -462,13 +462,12 @@ footer .cols .links-col a:hover {
 }
 
 body::-webkit-scrollbar {
-  width: 9px;
+  width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #ffb742;
   border-radius: 20px;
-  border: 3px solid #fb8c00;
 }
 
 @media screen and (min-width: 1144px) {
@@ -496,10 +495,6 @@ body::-webkit-scrollbar-thumb {
   }
   #skills .left .info p {
     font-size: 15px;
-  }
-  footer {
-    margin-top: 150px;
-    justify-content: center;
   }
   footer .cols {
     flex-wrap: wrap;
@@ -650,10 +645,13 @@ body::-webkit-scrollbar-thumb {
   }
 
   #projects {
-    padding: 270px 30px;
+    padding: 350px 30px 50px 30px;
   }
 
   .project-container {
     flex-direction: column;
+  }
+  footer{
+
   }
 }
