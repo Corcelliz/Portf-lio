@@ -214,6 +214,7 @@ h5:hover {
 #about {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: center;
   gap: 80px;
   padding: 2rem;
@@ -468,12 +469,6 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #ffb742;
   border-radius: 20px;
-}
-
-@media screen and (min-width: 1144px) {
-  .infoP {
-    padding-right: 500px;
-  }
 }
 
 @media screen and (min-width: 1101px) {
