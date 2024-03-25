@@ -92,7 +92,6 @@ button {
   width: 60px;
   /* position: relative; */
 }
-
 #cv-btn {
   background: #ffb742;
   padding: 6px 30px;
@@ -371,7 +370,7 @@ h5:hover {
   transition: all 0.3s ease-in;
 }
 
-.project-container img:hover {
+.project-container img:hover{
   opacity: 1;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
@@ -391,6 +390,7 @@ footer .cols {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
 }
 
 footer .cols .about-col {
@@ -499,6 +499,7 @@ body::-webkit-scrollbar-thumb {
   footer .cols {
     flex-wrap: wrap;
     gap: 50px;
+    flex-direction: column;
   }
   footer .cols .about-col {
     flex-basis: 50%;
@@ -515,9 +516,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 780px) {
-  #navbar button {
+  #nav img {
     display: none;
   }
+
   #main h4 {
     font-size: 24px;
   }
@@ -549,15 +551,26 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media (min-width: 680px) {
+  #nav ul {
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 650px) {
   #navbar {
+    display: flex;
     justify-content: center;
   }
-  #navbar h2 {
+
+  #nav h2 {
     display: none;
   }
-  #navbar ul li a {
+  #nav ul li a {
     font-size: 14px;
+  }
+  #navbar img{
+    display: none;
   }
   #main {
     margin-top: 50px;
@@ -640,18 +653,14 @@ body::-webkit-scrollbar-thumb {
   }
 
   #about {
-    margin: 0 auto;
-    padding: 1rem;
+    padding-bottom: 300px;
   }
 
   #projects {
-    padding: 350px 30px 50px 30px;
+    padding: 620px 30px 30px 30px;
   }
 
   .project-container {
     flex-direction: column;
-  }
-  footer{
-
   }
 }
