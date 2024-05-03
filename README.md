@@ -20,4 +20,4 @@
     <img align="center" height="30px" alt="Css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </div><br>
 
----
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bed78ece-a4cc-4d93-ab19-648034e9bf87/deploy-status)](https://app.netlify.com/sites/corcelliportfolio/deploys)
