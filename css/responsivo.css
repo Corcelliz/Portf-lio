@@ -1,193 +1,223 @@
 @media screen and (min-width: 1101px) {
-    #cv-btn2 {
-      display: none;
-    }
+  #cv-btn2 {
+    display: none;
   }
-  
-  @media screen and (max-width: 1100px) {
-    #main {
-      margin: 0;
-    }
-  
-    #skills {
-      justify-content: space-between;
-      gap: 20px;
-    }
-    #skills .left {
-      width: 500px;
-    }
-    #skills .left .info h3 {
-      font-size: 22px;
-    }
-    #skills .left .info p {
-      font-size: 15px;
-    }
-    footer .cols {
-      flex-wrap: wrap;
-      gap: 50px;
-      flex-direction: column;
-    }
-    footer .cols .about-col {
-      flex-basis: 50%;
-    }
-    footer .cols .links-col {
-      flex-basis: 50%;
-    }
-    #cv-btn {
-      display: none;
-    }
-    .project-container {
-      flex-direction: column;
-    }
+}
+
+@media screen and (max-width: 1100px) {
+  #main {
+    margin: 0;
   }
-  
-  @media screen and (max-width: 780px) {
-    #nav img {
-      display: none;
-    }
-  
-    #main h4 {
-      font-size: 24px;
-    }
-    #main p.title {
-      font-size: 36px;
-    }
-    #main p.subtitle {
-      font-size: 14px;
-    }
-    #about {
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-bottom: 100px;
-    }
-    #cv-btn {
-      display: none;
-    }
-    .project-container {
-      flex-direction: column;
-    }
-    body::-webkit-scrollbar {
-      display: none;
-    }
-    .seprator:hover {
-      transition: none;
-      font-weight: 400;
-      padding: 10px 20px;
-      font-size: 14px;
-    }
+
+  #skills {
+    justify-content: space-between;
+    gap: 20px;
   }
-  
-  @media (min-width: 680px) {
-    #nav ul {
-      justify-content: space-around;
-    }
+
+  #skills .left {
+    width: 500px;
   }
-  
-  @media screen and (max-width: 650px) {
-    #navbar {
-      display: flex;
-      justify-content: center;
-    }
-  
-    #nav h2 {
-      display: none;
-    }
-    #nav ul li a {
-      font-size: 14px;
-    }
-    #navbar img{
-      display: none;
-    }
-    #main {
-      margin-top: 50px;
-      height: 320px;
-      justify-content: start;
-    }
-    #main h4 {
-      font-size: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    #main p.title {
-      font-size: 28px;
-    }
-    #main p.subtitle {
-      font-size: 12px;
-    }
-    #main img {
-      margin-top: 40px;
-      width: 150px;
-      height: 150px;
-    }
-    #skills {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    #skills .right {
-      justify-content: space-between;
-    }
-    #skills .left .info h3 {
-      font-size: 20px;
-    }
-    footer .cols .about-col {
-      flex-basis: 100%;
-      margin-bottom: 40px;
-    }
-    #cv-btn {
-      display: none;
-    }
-    .project-container {
-      flex-direction: column;
-    }
-    .project-container img {
-      opacity: 1;
-    }
-  
-    .project-container img:hover {
-      transition: none;
-      transform: none;
-      box-shadow: none;
-      border: none;
-    }
+
+  #skills .left .info h3 {
+    font-size: 22px;
   }
-  
-  @media screen and (max-width: 480px) {
-    #main p.title {
-      font-size: 18px;
-    }
-  
-    #main p.subtitle {
-      font-size: 14px;
-      text-align: center;
-    }
-    #cv-btn {
-      display: none;
-    }
-  
-    #skills .right {
-      height: 350px;
-    }
-  
-    .item:hover {
-      transform: none;
-      transition: none;
-      border-radius: 0;
-    }
-    #about .info p {
-      font-size: 15px;
-    }
-  
-    #about {
-      padding-bottom: 300px;
-    }
-  
-    #projects {
-      padding: 620px 30px 30px 30px;
-    }
-  
-    .project-container {
-      flex-direction: column;
-    }
+
+  #skills .left .info p {
+    font-size: 15px;
   }
-  
+
+  footer .cols {
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  footer .cols .about-col {
+    flex-basis: 50%;
+  }
+
+  footer .cols .links-col {
+    flex-basis: 50%;
+  }
+
+  #cv-btn {
+    display: none;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #nav img {
+    display: none;
+  }
+
+  #main h4 {
+    font-size: 24px;
+  }
+
+  #main p.title {
+    font-size: 36px;
+  }
+
+  #main p.subtitle {
+    font-size: 14px;
+  }
+
+  #about {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  #cv-btn {
+    display: none;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .seprator:hover {
+    transition: none;
+    font-weight: 400;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 680px) {
+  #nav ul {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  #nav h2 {
+    display: none;
+  }
+
+  #nav ul li a {
+    font-size: 14px;
+  }
+
+  #navbar img {
+    display: none;
+  }
+
+  #main {
+    margin-top: 50px;
+    height: 320px;
+    justify-content: start;
+  }
+
+  #main h4 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main p.title {
+    font-size: 28px;
+  }
+
+  #main p.subtitle {
+    font-size: 12px;
+  }
+
+  #main img {
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #skills .right {
+    justify-content: space-between;
+  }
+
+  #skills .left .info h3 {
+    font-size: 20px;
+  }
+
+  footer .cols .about-col {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+
+  #cv-btn {
+    display: none;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-container img {
+    opacity: 1;
+  }
+
+  .project-container img:hover {
+    transition: none;
+    transform: none;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #main p.title {
+    font-size: 18px;
+  }
+
+  #main p.subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #cv-btn {
+    display: none;
+  }
+
+  #skills .right {
+    height: 350px;
+  }
+
+  .item:hover {
+    transform: none;
+    transition: none;
+    border-radius: 0;
+  }
+
+  #about .info p {
+    font-size: 15px;
+  }
+
+  #about {
+    padding-bottom: 300px;
+  }
+
+  #projects {
+    padding: 620px 30px 30px 30px;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+}
